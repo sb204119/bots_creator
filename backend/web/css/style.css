@@ -1,0 +1,30 @@
+.button-style {
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button-style:hover {
+    background-color: #00a65a;
+    color: #fff;
+}
+
+.box {
+    margin-bottom: 10px;
+}
+
+.box-header {
+    background-color: #00c0ef;
+    color: #fff;
+    padding: 10px;
+}
+
+.box-title {
+    font-size: 16px;
+    margin: 0;
+}
+
+.remove-button {
+    margin-top: 5px;
+}

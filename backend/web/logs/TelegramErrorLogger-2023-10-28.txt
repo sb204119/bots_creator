@@ -1,0 +1,517 @@
+============[Date]============
+[ 2023-10-28 15:03:06  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard button URL 'tyest' is invalid: Wrong HTTP URL
+=========[Sent Data]==========
+[ref]
+ref.update_id= 349585300
+ref.message.message_id= 72
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698494691
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= Выберите действие:
+ref.reply_markup= {"inline_keyboard":[[{"text":"test","url":"tyest"}],[{"text":"\u0422\u0435\u0441\u0442","url":"\/test"}],[{"text":"Test1","url":"command"}],[{"text":"Test2","url":"command"}]]}
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(177): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(95): Telegram->sendMessage()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-28 15:04:46  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard button URL 'tyest' is invalid: Wrong HTTP URL
+=========[Sent Data]==========
+[ref]
+ref.update_id= 349585301
+ref.message.message_id= 74
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698494792
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= Выберите действие:
+ref.reply_markup= {"inline_keyboard":[[{"text":"test","url":"tyest"}],[{"text":"\u0422\u0435\u0441\u0442","url":"\/test"}],[{"text":"Test1","url":"command"}],[{"text":"Test2","url":"command"}]]}
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(177): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(95): Telegram->sendMessage()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-28 15:07:34  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard button URL 'tyest' is invalid: Wrong HTTP URL
+=========[Sent Data]==========
+[ref]
+ref.update_id= 349585302
+ref.message.message_id= 76
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698494960
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= Привіт, чим можу допомогти? Слава Україні! 🇺🇦
+ref.reply_markup= {"inline_keyboard":[[{"text":"test","url":"tyest"}],[{"text":"\u0422\u0435\u0441\u0442","url":"\/test"}],[{"text":"Test1","url":"command"}],[{"text":"Test2","url":"command"}],[{"text":"\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:","callback_data":"action"}]]}
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(177): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(80): Telegram->sendMessage()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-28 15:07:46  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard button URL 'tyest' is invalid: Wrong HTTP URL
+=========[Sent Data]==========
+[ref]
+ref.update_id= 349585303
+ref.message.message_id= 77
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698494972
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= Привіт, чим можу допомогти? Слава Україні! 🇺🇦
+ref.reply_markup= {"inline_keyboard":[[{"text":"test","url":"tyest"}],[{"text":"\u0422\u0435\u0441\u0442","url":"\/test"}],[{"text":"Test1","url":"command"}],[{"text":"Test2","url":"command"}],[{"text":"\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:","callback_data":"action"}]]}
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(177): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(80): Telegram->sendMessage()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-28 15:09:26  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard button URL 'command' is invalid: Wrong HTTP URL
+=========[Sent Data]==========
+[ref]
+ref.update_id= 349585304
+ref.message.message_id= 78
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698495072
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= Привіт, чим можу допомогти? Слава Україні! 🇺🇦
+ref.reply_markup= {"inline_keyboard":[[{"text":"Test3","url":"command"}],[{"text":"Test reply","url":"command"}],[{"text":"\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:","callback_data":"action"}]]}
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(177): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(78): Telegram->sendMessage()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-28 15:12:12  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard button URL 'tyest' is invalid: Wrong HTTP URL
+=========[Sent Data]==========
+[ref]
+ref.update_id= 349585307
+ref.message.message_id= 83
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698495238
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= Выберите действие:
+ref.reply_markup= {"inline_keyboard":[[{"text":"test","url":"tyest"}],[{"text":"\u0422\u0435\u0441\u0442","url":"\/test"}],[{"text":"Test1","url":"command"}],[{"text":"Test2","url":"command"}]]}
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(177): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(68): Telegram->sendMessage()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-28 15:15:40  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard button URL 'tyest' is invalid: Wrong HTTP URL
+=========[Sent Data]==========
+[ref]
+ref.update_id= 349585309
+ref.message.message_id= 86
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698495445
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= Выберите действие:
+ref.reply_markup= {"inline_keyboard":[[{"text":"test","url":"tyest"}],[{"text":"\u0422\u0435\u0441\u0442","url":"\/test"}],[{"text":"Test1","url":"command"}],[{"text":"Test2","url":"command"}]]}
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(177): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(95): Telegram->sendMessage()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-28 15:17:29  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard button URL 'tyest' is invalid: Wrong HTTP URL
+=========[Sent Data]==========
+[ref]
+ref.update_id= 349585310
+ref.message.message_id= 88
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698495555
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= Привіт, чим можу допомогти? Слава Україні! 🇺🇦
+ref.reply_markup= {"inline_keyboard":[[{"text":"test","url":"tyest"}],[{"text":"\u0422\u0435\u0441\u0442","url":"\/test"}],[{"text":"Test1","url":"command"}],[{"text":"Test2","url":"command"}],[{"text":"\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435:","callback_data":"action"}]]}
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(177): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(80): Telegram->sendMessage()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-28 15:47:41  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard button URL 'tyest' is invalid: Wrong HTTP URL
+=========[Sent Data]==========
+[ref]
+ref.update_id= 349585318
+ref.message.message_id= 102
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698497360
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= Выберите действие:
+ref.reply_markup= {"inline_keyboard":[[{"text":"test","url":"tyest"}],[{"text":"\u0422\u0435\u0441\u0442","url":"\/test"}],[{"text":"Test1","url":"command"}],[{"text":"Test2","url":"command"}]]}
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(177): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(68): Telegram->sendMessage()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-28 15:48:45  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard button URL 'tyest' is invalid: Wrong HTTP URL
+=========[Sent Data]==========
+[ref]
+ref.update_id= 349585319
+ref.message.message_id= 103
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698497431
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= Выберите действие:
+ref.reply_markup= {"inline_keyboard":[[{"text":"test","url":"tyest"}],[{"text":"\u0422\u0435\u0441\u0442","url":"\/test"}],[{"text":"Test1","url":"command"}],[{"text":"Test2","url":"command"}]]}
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(177): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(68): Telegram->sendMessage()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-28 15:49:26  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: inline keyboard button URL 'tyest' is invalid: Wrong HTTP URL
+=========[Sent Data]==========
+[ref]
+ref.update_id= 349585320
+ref.message.message_id= 104
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698497472
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.text= Выберите действие:
+ref.reply_markup= {"inline_keyboard":[[{"text":"test","url":"tyest"}],[{"text":"\u0422\u0435\u0441\u0442","url":"\/test"}],[{"text":"Test1","url":"command"}],[{"text":"Test2","url":"command"}]]}
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(177): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(69): Telegram->sendMessage()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+

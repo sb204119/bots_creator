@@ -1,0 +1,759 @@
+============[Date]============
+[ 2023-10-24 13:58:38  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse commands JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 4042452
+ref.message.message_id= 130
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698145204
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.commands.start= Розпочати
+ref.commands.help= Допомога
+ref.commands.custom= Ваша власна команда
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(605): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(49): Telegram->setMyCommands()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-24 13:58:59  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse commands JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 4042453
+ref.message.message_id= 132
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698145224
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.commands.start= Розпочати
+ref.commands.help= Допомога
+ref.commands.custom= Ваша власна команда
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(605): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(49): Telegram->setMyCommands()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-24 14:01:14  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse commands JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 4042456
+ref.message.message_id= 138
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698145359
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.commands.start= Розпочати
+ref.commands.help= Допомога
+ref.commands.custom= Ваша власна команда
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(605): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(29): Telegram->setMyCommands()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-24 14:01:15  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse commands JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 4042456
+ref.message.message_id= 138
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698145359
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.commands.start= Розпочати
+ref.commands.help= Допомога
+ref.commands.custom= Ваша власна команда
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(605): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(29): Telegram->setMyCommands()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-24 14:01:18  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse commands JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 4042456
+ref.message.message_id= 138
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698145359
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.commands.start= Розпочати
+ref.commands.help= Допомога
+ref.commands.custom= Ваша власна команда
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(605): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(29): Telegram->setMyCommands()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-24 14:01:23  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse commands JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 4042456
+ref.message.message_id= 138
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698145359
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.commands.start= Розпочати
+ref.commands.help= Допомога
+ref.commands.custom= Ваша власна команда
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(605): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(29): Telegram->setMyCommands()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-24 14:01:32  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse commands JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 4042456
+ref.message.message_id= 138
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698145359
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.commands.start= Розпочати
+ref.commands.help= Допомога
+ref.commands.custom= Ваша власна команда
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(605): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(29): Telegram->setMyCommands()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-24 14:01:49  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse commands JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 4042456
+ref.message.message_id= 138
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698145359
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.commands.start= Розпочати
+ref.commands.help= Допомога
+ref.commands.custom= Ваша власна команда
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(605): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(29): Telegram->setMyCommands()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-24 14:01:50  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse commands JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 4042457
+ref.message.message_id= 139
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698145387
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.commands.start= Розпочати
+ref.commands.help= Допомога
+ref.commands.custom= Ваша власна команда
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(605): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(29): Telegram->setMyCommands()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-24 14:12:56  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse commands JSON object
+=========[Sent Data]==========
+[ref]
+ref.update_id= 4042458
+ref.message.message_id= 142
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698146061
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.commands.start= Розпочати
+ref.commands.help= Допомога
+ref.commands.custom= Ваша власна команда
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(605): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(29): Telegram->setMyCommands()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-24 14:19:43  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		401
+description:		Unauthorized
+=========[Sent Data]==========
+[ref]
+ref.update_id= 42935960
+ref.message.message_id= 171
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698146225
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.commands.start= Розпочати
+ref.commands.help= Допомога
+ref.commands.custom= Ваша власна команда
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(605): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(29): Telegram->setMyCommands()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-24 14:19:43  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		401
+description:		Unauthorized
+=========[Sent Data]==========
+[ref]
+ref.update_id= 42935960
+ref.message.message_id= 171
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698146225
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(121): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(135): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(34): Telegram->getMe()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-24 14:19:48  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		401
+description:		Unauthorized
+=========[Sent Data]==========
+[ref]
+ref.update_id= 42935961
+ref.message.message_id= 174
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698146473
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.commands.start= Розпочати
+ref.commands.help= Допомога
+ref.commands.custom= Ваша власна команда
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(605): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(29): Telegram->setMyCommands()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-24 14:19:48  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		401
+description:		Unauthorized
+=========[Sent Data]==========
+[ref]
+ref.update_id= 42935961
+ref.message.message_id= 174
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698146473
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(121): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(135): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(34): Telegram->getMe()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-24 14:20:52  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		401
+description:		Unauthorized
+=========[Sent Data]==========
+[ref]
+ref.update_id= 42935962
+ref.message.message_id= 175
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698146537
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+ref.commands.start= Розпочати
+ref.commands.help= Допомога
+ref.commands.custom= Ваша власна команда
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(119): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(605): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(29): Telegram->setMyCommands()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
+============[Date]============
+[ 2023-10-24 14:20:52  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		401
+description:		Unauthorized
+=========[Sent Data]==========
+[ref]
+ref.update_id= 42935962
+ref.message.message_id= 175
+ref.message.from.id= 1407801873
+ref.message.from.is_bot= false
+ref.message.from.first_name= Sergey
+ref.message.from.last_name= Babiy 🇺🇦
+ref.message.from.username= nexilon
+ref.message.from.language_code= ru
+ref.message.chat.id= 1407801873
+ref.message.chat.first_name= Sergey
+ref.message.chat.last_name= Babiy 🇺🇦
+ref.message.chat.username= nexilon
+ref.message.chat.type= private
+ref.message.date= 1698146537
+ref.message.text= /start
+ref.message.entities.0.offset= 0
+ref.message.entities.0.length= 6
+ref.message.entities.0.type= bot_command
+
+
+[ref]
+
+
+============[Trace]===========
+#0 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(1797): TelegramErrorLogger::log()
+#1 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(121): Telegram->sendAPIRequest()
+#2 C:\OSPanel\domains\localhost\vendor\eleirbag89\telegrambotphp\Telegram.php(135): Telegram->endpoint()
+#3 C:\OSPanel\domains\localhost\backend\modules\bots\controllers\BotController.php(34): Telegram->getMe()
+#4 [internal function]: backend\modules\bots\controllers\BotController->actionIndex()
+#5 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OSPanel\domains\localhost\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OSPanel\domains\localhost\backend\web\index.php(23): yii\base\Application->run()
+#11 {main}
+
